@@ -1,0 +1,37 @@
+! Blurb file created by Inform build 6G60
+
+status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform"
+release to "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform Materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "SpaceInform.zblorb"
+storyfile "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Build\output.z5" include
+ifiction "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "A773DB5E-804C-47C8-8F6D-F7B4B1B81307"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2013"
+placeholder [TITLE] = "SpaceInform"
+placeholder [AUTHOR] = "William Pacini and Brian Gabin"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc393.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc394.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||
