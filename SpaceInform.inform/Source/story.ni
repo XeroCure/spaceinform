@@ -17,8 +17,6 @@ The Hallway is a room. It is port of the Entry Commons. The description is "Hall
 
 The Exercise Room is a room. It is starboard of the Entry Commons. The description is "Exercise room description".
 
-The Elevator is a room. It is starboard of the Hallway. The description is "Elevator description".
-
 The Barracks is a room. It is aft of the Hallway. The description is "Barracks description".
 
 The Galley is a room. It is aft of the Entry Commons. It is fore of the Barracks. It is starboard of the Elevator. The description is "Galley description".
@@ -48,4 +46,36 @@ The Captain's Quarters is a room. It is starboard of the Observation Deck. The d
 The Hallway is port of the Barracks.
 The Entry Commons is fore of the Hallway.
 
+The Elevator is a room. It is starboard of the Hallway. It is port of the Observation Deck. The description is "Elevator description".
+Instead of going up in the Elevator:
+	If Observation Deck is mapped starboard of the Elevator, say "The elevator is already on the top level.";
+	If Galley is mapped starboard of the Elevator
+	begin;
+		now Observation Deck is mapped starboard of the Elevator;
+		now nothing is mapped port of the Elevator;
+		say "The door closes and the elevator churns upwards to the top level.";
+	end if;
+	If Armory is mapped starboard of the Elevator
+	begin;
+		now Galley is mapped starboard of the Elevator;
+		now Hallway is mapped port of the Elevator;
+		say "The door closes and the elevator churns upwards to the main level.";
+	end if;
+Instead of going down in the Elevator:
+	If Armory is mapped starboard of the Elevator, say "The elevator is already on the bottom level.";
+	If Galley is mapped starboard of the Elevator
+	begin;
+		now Armory is mapped starboard of the Elevator;
+		now nothing is mapped port of the Elevator;
+		say "The door closes and the elevator churns upwards to the bottom level.";
+	end if;
+	If Observation Deck is mapped starboard of the Elevator
+	begin;
+		now Galley is mapped starboard of the Elevator;
+		now Hallway is mapped port of the Elevator;
+		say "The door closes and the elevator churns upwards to the main level.";
+	end if;
+
 Chapter 2 - Everything Else
+
+Include Conversation Package by Eric Eve.
