@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02731220" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x02D9D958" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x0F18CD90"/>
-  <item nodeId="node-0x02731220">
+  <activeNode nodeId="node-0x02D9D958"/>
+  <item nodeId="node-0x02D9D958">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">SpaceInform&#x000A;An Interactive Fiction by William Pacini and Brian Gabin&#x000A;Release 1 / Serial number 130314 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Mining Vessel&#x000A;Mining Vessel description&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">SpaceInform&#x000A;An Interactive Fiction by William Pacini and Brian Gabin&#x000A;Release 1 / Serial number 130315 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Mining Vessel&#x000A;It's a small two seat mining ship that you've lovingly named "Ol" Faithful" after years of service. It currently sits docked at the FORE of the Space Hulk that the distress signal came from. If things go poorly, it may be your only means of escape.&#x000A;&#x000A;You can see an Airlock here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02731290"/>
-      <child nodeId="node-0x02DA3028"/>
-      <child nodeId="node-0x02DA31E8"/>
-      <child nodeId="node-0x02DA7370"/>
-      <child nodeId="node-0x02DAEC28"/>
+      <child nodeId="node-0x02D9DA38"/>
+      <child nodeId="node-0x02DB8FC0"/>
+      <child nodeId="node-0x02DB9180"/>
+      <child nodeId="node-0x02DBC270"/>
+      <child nodeId="node-0x02DBF3F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02731290">
+  <item nodeId="node-0x02D9DA38">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02D97E98"/>
-      <child nodeId="node-0x02DA2C20"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02D97E98">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Cardinal directions don't make sense on a spaceship&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02D97F08"/>
+      <child nodeId="node-0x02DB21E8"/>
+      <child nodeId="node-0x02DB8BB8"/>
+      <child nodeId="node-0x02DC2EA8"/>
     </children>
   </item>
-  <item nodeId="node-0x02D97F08">
+  <item nodeId="node-0x02DB21E8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">shit&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DB2258"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DB2258">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -48,10 +49,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02D97F78"/>
+      <child nodeId="node-0x02DB88F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02D97F78">
+  <item nodeId="node-0x02DB88F8">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -59,10 +60,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02D97FE8"/>
+      <child nodeId="node-0x02DB8968"/>
     </children>
   </item>
-  <item nodeId="node-0x02D97FE8">
+  <item nodeId="node-0x02DB8968">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Officer's Quarters&#x000A;Officer's Quarters description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -70,10 +71,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02D98058"/>
+      <child nodeId="node-0x02DB89D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02D98058">
+  <item nodeId="node-0x02DB89D8">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -81,10 +82,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2B40"/>
+      <child nodeId="node-0x02DB8AD8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2B40">
+  <item nodeId="node-0x02DB8AD8">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">Weapons Systems Room&#x000A;Weapons Systems Room description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -92,10 +93,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2BB0"/>
+      <child nodeId="node-0x02DB8B48"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2BB0">
+  <item nodeId="node-0x02DB8B48">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Observation Deck&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -103,18 +104,19 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02DA2C20">
+  <item nodeId="node-0x02DB8BB8">
     <command xml:space="preserve">aft</command>
-    <result xml:space="preserve">Airlock&#x000A;Air Lock description&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first opening the Airlock)&#x000A;As you pass though the airlock into the Entry Commons, you hear a loud "Slam!" from behind. Wheeling on the spot, you realize to your horrors that the blast doors have sealed you in, for seemingly no reason. After about fifteen seconds, you hear a man's voice. &#x000A;&#x000A; "Hello there, do not be alarmed."&#x000A;&#x000A; The  sound is coming from an intercom in the corner of the room. &#x000A;&#x000A; "I've only blocked off your passage because I'm a desperate man, who's been cooped up in this floating prison for far too long. I promise that if you can get me out I'll let you go. I'm directly above you in the Bridge but in order to get here, you'll need to restore the power to certain parts of the ship and get the elevator working. I'll try to keep you updated as best as possible, but communication is a bit spotty. Time is of the essence, I'll be waiting." &#x000A;&#x000A; With that the intercom cuts off and the room returns to an eerie silence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2D00"/>
+      <child nodeId="node-0x02DB8C98"/>
+      <child nodeId="node-0x0E2DEA40"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2D00">
+  <item nodeId="node-0x02DB8C98">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -122,10 +124,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2D70"/>
+      <child nodeId="node-0x02DB8D20"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2D70">
+  <item nodeId="node-0x02DB8D20">
     <command xml:space="preserve">go port</command>
     <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -133,10 +135,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2DF8"/>
+      <child nodeId="node-0x02DB8D90"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2DF8">
+  <item nodeId="node-0x02DB8D90">
     <command xml:space="preserve">go aft</command>
     <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -144,10 +146,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2E68"/>
+      <child nodeId="node-0x02DB8E00"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2E68">
+  <item nodeId="node-0x02DB8E00">
     <command xml:space="preserve">go fore</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -155,10 +157,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2F48"/>
+      <child nodeId="node-0x02DB8EE0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2F48">
+  <item nodeId="node-0x02DB8EE0">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -166,10 +168,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA2FB8"/>
+      <child nodeId="node-0x02DB8F50"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA2FB8">
+  <item nodeId="node-0x02DB8F50">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Airlock&#x000A;Air Lock description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -177,7 +179,122 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02DA3028">
+  <item nodeId="node-0x0E2DEA40">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Hallway&#x000A;A large passage  running along the port exterior of the ship. The monitors that line the outer wall simulate windows, and outside you can see the deserted asteroid field that you've been mining your whole life pass by. &#x000A; &#x000A; There are three exits out of the Hallway towards the AFT of the ship you see a sign labeled Barracks. Towards the  FORE of the ship the sign reads entry commons. and about halfway down on the starboard you see a sign reading elevator, but where the elevator should be, there is a rather large pile of rubble.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0D982FE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0D982FE8">
+    <command xml:space="preserve">x trees</command>
+    <result xml:space="preserve">While providing no practical use, the trees give an aesthetic comfort to the crew members and soldiers that helps stave off the dreaded Cabin Fever.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DC2EA8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Cardinal directions don't make sense on a spaceship&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05788"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05788">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">What do you want to a?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E057F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E057F8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">There's no one here to talk to.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05868"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05868">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Cardinal directions don't make sense on a spaceship&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E058D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E058D8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Cardinal directions don't make sense on a spaceship&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05948"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05948">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Cardinal directions don't make sense on a spaceship&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E059B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E059B8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Cardinal directions don't make sense on a spaceship&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05A28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05A28">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05A98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05A98">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">Cardinal directions don't make sense on a spaceship&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DB8FC0">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -185,10 +302,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA3098"/>
+      <child nodeId="node-0x02DB9030"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA3098">
+  <item nodeId="node-0x02DB9030">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -196,10 +313,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA3108"/>
+      <child nodeId="node-0x02DB90A0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA3108">
+  <item nodeId="node-0x02DB90A0">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -207,10 +324,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA3178"/>
+      <child nodeId="node-0x02DB9110"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA3178">
+  <item nodeId="node-0x02DB9110">
     <command xml:space="preserve">starboard</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -218,7 +335,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02DA31E8">
+  <item nodeId="node-0x02DB9180">
     <command xml:space="preserve">fore\</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -226,10 +343,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA3258"/>
+      <child nodeId="node-0x02DB91F0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA3258">
+  <item nodeId="node-0x02DB91F0">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -237,10 +354,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA32C8"/>
+      <child nodeId="node-0x02DB9260"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA32C8">
+  <item nodeId="node-0x02DB9260">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -248,10 +365,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA3338"/>
+      <child nodeId="node-0x02DB92D0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA3338">
+  <item nodeId="node-0x02DB92D0">
     <command xml:space="preserve">starboard</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -259,10 +376,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA33A8"/>
+      <child nodeId="node-0x02DB9340"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA33A8">
+  <item nodeId="node-0x02DB9340">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -270,10 +387,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA3418"/>
+      <child nodeId="node-0x02DB93B0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA3418">
+  <item nodeId="node-0x02DB93B0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -281,10 +398,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA3488"/>
+      <child nodeId="node-0x02DB9420"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA3488">
+  <item nodeId="node-0x02DB9420">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Airlock&#x000A;Air Lock description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -292,7 +409,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02DA7370">
+  <item nodeId="node-0x02DBC270">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Mining Vessel&#x000A;Mining Vessel description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -300,10 +417,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7450"/>
+      <child nodeId="node-0x02DBC2E0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7450">
+  <item nodeId="node-0x02DBC2E0">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Airlock&#x000A;Air Lock description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -311,10 +428,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA74C0"/>
+      <child nodeId="node-0x02DBC3C0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA74C0">
+  <item nodeId="node-0x02DBC3C0">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -322,10 +439,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7530"/>
+      <child nodeId="node-0x02DBC430"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7530">
+  <item nodeId="node-0x02DBC430">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -333,10 +450,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA75A0"/>
+      <child nodeId="node-0x02DBC4A0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA75A0">
+  <item nodeId="node-0x02DBC4A0">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -344,10 +461,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7610"/>
+      <child nodeId="node-0x02DBC510"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7610">
+  <item nodeId="node-0x02DBC510">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Officer's Quarters&#x000A;Officer's Quarters description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -355,10 +472,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7680"/>
+      <child nodeId="node-0x02DBC580"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7680">
+  <item nodeId="node-0x02DBC580">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -366,10 +483,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA76F0"/>
+      <child nodeId="node-0x02DBC5F0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA76F0">
+  <item nodeId="node-0x02DBC5F0">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -377,10 +494,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7760"/>
+      <child nodeId="node-0x02DBC660"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7760">
+  <item nodeId="node-0x02DBC660">
     <command xml:space="preserve">starboard</command>
     <result xml:space="preserve">Crew's Quarters&#x000A;Crew's Quarters description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -388,10 +505,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA77D0"/>
+      <child nodeId="node-0x02DBC6D0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA77D0">
+  <item nodeId="node-0x02DBC6D0">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Medical Bay&#x000A;Medical Bay description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -399,10 +516,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA78B0"/>
+      <child nodeId="node-0x02DBC740"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA78B0">
+  <item nodeId="node-0x02DBC740">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -410,10 +527,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7920"/>
+      <child nodeId="node-0x02DBC7B0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7920">
+  <item nodeId="node-0x02DBC7B0">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -421,10 +538,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7990"/>
+      <child nodeId="node-0x02DBC820"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7990">
+  <item nodeId="node-0x02DBC820">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -432,10 +549,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7A00"/>
+      <child nodeId="node-0x02DBC890"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7A00">
+  <item nodeId="node-0x02DBC890">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -443,10 +560,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA7A70"/>
+      <child nodeId="node-0x02DBC900"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA7A70">
+  <item nodeId="node-0x02DBC900">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -454,10 +571,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8908"/>
+      <child nodeId="node-0x02DBC970"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8908">
+  <item nodeId="node-0x02DBC970">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -465,10 +582,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8978"/>
+      <child nodeId="node-0x02DBC9E0"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8978">
+  <item nodeId="node-0x02DBC9E0">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -476,10 +593,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA89E8"/>
+      <child nodeId="node-0x02DBDF18"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA89E8">
+  <item nodeId="node-0x02DBDF18">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -487,10 +604,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8A58"/>
+      <child nodeId="node-0x02DBDFF8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8A58">
+  <item nodeId="node-0x02DBDFF8">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -498,10 +615,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8AC8"/>
+      <child nodeId="node-0x02DBE068"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8AC8">
+  <item nodeId="node-0x02DBE068">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -509,10 +626,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8B38"/>
+      <child nodeId="node-0x02DBE0D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8B38">
+  <item nodeId="node-0x02DBE0D8">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -520,10 +637,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8BA8"/>
+      <child nodeId="node-0x02DBE148"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8BA8">
+  <item nodeId="node-0x02DBE148">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -531,10 +648,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8C18"/>
+      <child nodeId="node-0x02DBE1B8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8C18">
+  <item nodeId="node-0x02DBE1B8">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -542,10 +659,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8C88"/>
+      <child nodeId="node-0x02DBE228"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8C88">
+  <item nodeId="node-0x02DBE228">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -553,10 +670,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8CF8"/>
+      <child nodeId="node-0x02DBE298"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8CF8">
+  <item nodeId="node-0x02DBE298">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -564,10 +681,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8D68"/>
+      <child nodeId="node-0x02DBE308"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8D68">
+  <item nodeId="node-0x02DBE308">
     <command xml:space="preserve">for</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -575,10 +692,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8DD8"/>
+      <child nodeId="node-0x02DBE3E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8DD8">
+  <item nodeId="node-0x02DBE3E8">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -586,10 +703,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8E48"/>
+      <child nodeId="node-0x02DBE458"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8E48">
+  <item nodeId="node-0x02DBE458">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -597,10 +714,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8EB8"/>
+      <child nodeId="node-0x02DBE4C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8EB8">
+  <item nodeId="node-0x02DBE4C8">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -608,10 +725,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8F28"/>
+      <child nodeId="node-0x02DBE538"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8F28">
+  <item nodeId="node-0x02DBE538">
     <command xml:space="preserve">go back</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -619,10 +736,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA8F98"/>
+      <child nodeId="node-0x02DBE5A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA8F98">
+  <item nodeId="node-0x02DBE5A8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -630,10 +747,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA9008"/>
+      <child nodeId="node-0x02DBE618"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA9008">
+  <item nodeId="node-0x02DBE618">
     <command xml:space="preserve">hellp</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -641,10 +758,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DA9078"/>
+      <child nodeId="node-0x02DBE688"/>
     </children>
   </item>
-  <item nodeId="node-0x02DA9078">
+  <item nodeId="node-0x02DBE688">
     <command xml:space="preserve">hello</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -652,10 +769,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DAE758"/>
+      <child nodeId="node-0x02DBF318"/>
     </children>
   </item>
-  <item nodeId="node-0x02DAE758">
+  <item nodeId="node-0x02DBF318">
     <command xml:space="preserve">hello</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -663,10 +780,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DAE7C8"/>
+      <child nodeId="node-0x02DBF388"/>
     </children>
   </item>
-  <item nodeId="node-0x02DAE7C8">
+  <item nodeId="node-0x02DBF388">
     <command xml:space="preserve">Hello</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -674,31 +791,18 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02DAEC28">
+  <item nodeId="node-0x02DBF3F8">
     <command xml:space="preserve">aft</command>
-    <result xml:space="preserve">Airlock&#x000A;Air Lock description&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first opening the Airlock)&#x000A;As you pass though the airlock into the Entry Commons, you hear a loud "Slam!" from behind. Wheeling on the spot, you realize to your horrors that the blast doors have sealed you in, for seemingly no reason. After about fifteen seconds, you hear a man's voice. &#x000A;&#x000A; "Hello there, do not be alarmed."&#x000A;&#x000A; The  sound is coming from an intercom in the corner of the room. &#x000A;&#x000A; "I've only blocked off your passage because I'm a desperate man, who's been cooped up in this floating prison for far too long. I promise that if you can get me out I'll let you go. I'm directly above you in the Bridge but in order to get here, you'll need to restore the power to certain parts of the ship and get the elevator working. I'll try to keep you updated as best as possible, but communication is a bit spotty. Time is of the essence, I'll be waiting." &#x000A;&#x000A; With that the intercom cuts off and the room returns to an eerie silence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DAEBB8"/>
-      <child nodeId="node-0x02DAE988"/>
+      <child nodeId="node-0x02DBF4D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DAEBB8">
-    <command xml:space="preserve">aft</command>
-    <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02DAE838"/>
-      <child nodeId="node-0x0D524220"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02DAE838">
+  <item nodeId="node-0x02DBF4D8">
     <command xml:space="preserve">aft</command>
     <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -706,10 +810,23 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DAEC98"/>
+      <child nodeId="node-0x02DBF548"/>
+      <child nodeId="node-0x02DBF9A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DAEC98">
+  <item nodeId="node-0x02DBF548">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DBF5B8"/>
+      <child nodeId="node-0x02DBF468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DBF5B8">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -717,10 +834,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DAED08"/>
+      <child nodeId="node-0x02DBF628"/>
     </children>
   </item>
-  <item nodeId="node-0x02DAED08">
+  <item nodeId="node-0x02DBF628">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">The door closes and the elevator churns upwards to the top level.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -728,12 +845,12 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DAED78"/>
-      <child nodeId="node-0x0D24FF48"/>
-      <child nodeId="node-0x0F18CEE0"/>
+      <child nodeId="node-0x02DBF698"/>
+      <child nodeId="node-0x02DBF778"/>
+      <child nodeId="node-0x02DBF7E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02DAED78">
+  <item nodeId="node-0x02DBF698">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -741,10 +858,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DAEDE8"/>
+      <child nodeId="node-0x02DBF708"/>
     </children>
   </item>
-  <item nodeId="node-0x02DAEDE8">
+  <item nodeId="node-0x02DBF708">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -752,7 +869,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0D24FF48">
+  <item nodeId="node-0x02DBF778">
     <command xml:space="preserve">go up</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -760,7 +877,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0F18CEE0">
+  <item nodeId="node-0x02DBF7E8">
     <command xml:space="preserve">starboard</command>
     <result xml:space="preserve">Observation Deck&#x000A;Observation Deck&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -768,10 +885,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0F18CE70"/>
+      <child nodeId="node-0x02DBF858"/>
     </children>
   </item>
-  <item nodeId="node-0x0F18CE70">
+  <item nodeId="node-0x02DBF858">
     <command xml:space="preserve">fore</command>
     <result xml:space="preserve">Bridge&#x000A;Bridge description&#x000A;&#x000A;You can see a Captain here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -779,10 +896,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0F18CE00"/>
+      <child nodeId="node-0x02DBF8C8"/>
     </children>
   </item>
-  <item nodeId="node-0x0F18CE00">
+  <item nodeId="node-0x02DBF8C8">
     <command xml:space="preserve">hello captain</command>
     <result xml:space="preserve">I only understood you as far as wanting to hello.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -790,10 +907,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0F18CD90"/>
+      <child nodeId="node-0x02DBF938"/>
     </children>
   </item>
-  <item nodeId="node-0x0F18CD90">
+  <item nodeId="node-0x02DBF938">
     <command xml:space="preserve">hello</command>
     <result xml:space="preserve">(addressing the Captain)&#x000A;You say hello to the Captain.&#x000A;&#x000A;You have nothing specific in mind to discuss with Captain right now.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -801,7 +918,62 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0D524220">
+  <item nodeId="node-0x02DBF468">
+    <command xml:space="preserve">af</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05CC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05CC8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05B78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05B78">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;Officer's Quarters description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05BE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05BE8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05D38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05D38">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05DA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05DA8">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -809,10 +981,51 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0D524290"/>
+      <child nodeId="node-0x02E05E18"/>
     </children>
   </item>
-  <item nodeId="node-0x0D524290">
+  <item nodeId="node-0x02E05E18">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Barracks&#x000A;Barracks description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05E88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05E88">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Crew's Quarters&#x000A;Crew's Quarters description&#x000A;&#x000A;You can see Engineer's Manual here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E05EF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E05EF8">
+    <command xml:space="preserve">l Engineer's Manual</command>
+    <result xml:space="preserve">The cover reads "The MonteCarlo Pathfinder Maintenance Manual" in big golden letters across the cover. Inside it seems to contain schematics for each of the ships integral systams. Sadly, the book seems to be worn and torn , clearly heavily used and not well taken care of.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DBF9A8">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DBFA18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DBFA18">
     <command xml:space="preserve">starboard</command>
     <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -820,11 +1033,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0D524140"/>
-      <child nodeId="node-0x0D524300"/>
+      <child nodeId="node-0x02DBFA88"/>
     </children>
   </item>
-  <item nodeId="node-0x0D524140">
+  <item nodeId="node-0x02DBFA88">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">The door closes and the elevator churns upwards to the top level.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -832,12 +1044,12 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0D5241B0"/>
-      <child nodeId="node-0x02E0DB70"/>
-      <child nodeId="node-0x0F613910"/>
+      <child nodeId="node-0x02DC0A10"/>
+      <child nodeId="node-0x02DC0A80"/>
+      <child nodeId="node-0x02DC0AF0"/>
     </children>
   </item>
-  <item nodeId="node-0x0D5241B0">
+  <item nodeId="node-0x02DC0A10">
     <command xml:space="preserve">starboard</command>
     <result xml:space="preserve">Observation Deck&#x000A;Observation Deck&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -845,7 +1057,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02E0DB70">
+  <item nodeId="node-0x02DC0A80">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">The elevator is already on the top level.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -853,7 +1065,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0F613910">
+  <item nodeId="node-0x02DC0AF0">
     <command xml:space="preserve">port</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -861,226 +1073,12 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0F613980"/>
+      <child nodeId="node-0x02DC0B60"/>
     </children>
   </item>
-  <item nodeId="node-0x0F613980">
+  <item nodeId="node-0x02DC0B60">
     <command xml:space="preserve">starboard</command>
     <result xml:space="preserve">Observation Deck&#x000A;Observation Deck&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F6139F0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F6139F0">
-    <command xml:space="preserve">port</command>
-    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F613A60"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F613A60">
-    <command xml:space="preserve">down</command>
-    <result xml:space="preserve">The door closes and the elevator churns upwards to the main level.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F613AD0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F613AD0">
-    <command xml:space="preserve">port</command>
-    <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F18C770"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F18C770">
-    <command xml:space="preserve">starboard</command>
-    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F18C7E0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F18C7E0">
-    <command xml:space="preserve">starboard</command>
-    <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F18C850"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F18C850">
-    <command xml:space="preserve">port</command>
-    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F18C8C0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F18C8C0">
-    <command xml:space="preserve">down</command>
-    <result xml:space="preserve">The door closes and the elevator churns upwards to the bottom level.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F18C930"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F18C930">
-    <command xml:space="preserve">port</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0F18C9A0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0F18C9A0">
-    <command xml:space="preserve">starboard</command>
-    <result xml:space="preserve">Armory&#x000A;Armory description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x0D524300">
-    <command xml:space="preserve">port</command>
-    <result xml:space="preserve">Hallway&#x000A;Hallway description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x0D524370"/>
-    </children>
-  </item>
-  <item nodeId="node-0x0D524370">
-    <command xml:space="preserve">starboard</command>
-    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E0D9B0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E0D9B0">
-    <command xml:space="preserve">up</command>
-    <result xml:space="preserve">The door closes and the elevator churns upwards to the Observation Deck.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E0DA20"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E0DA20">
-    <command xml:space="preserve">port</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E0DA90"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E0DA90">
-    <command xml:space="preserve">starboatd</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E0DB00"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E0DB00">
-    <command xml:space="preserve">starboard</command>
-    <result xml:space="preserve">Observation Deck&#x000A;Observation Deck&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x02DAE988">
-    <command xml:space="preserve">ft</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02DAE8A8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02DAE8A8">
-    <command xml:space="preserve">aft</command>
-    <result xml:space="preserve">Entry Commons&#x000A;Entry Commons description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02DAEAD8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02DAEAD8">
-    <command xml:space="preserve">aft</command>
-    <result xml:space="preserve">Galley&#x000A;Galley description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02DAE918"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02DAE918">
-    <command xml:space="preserve">port</command>
-    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02DAEA68"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02DAEA68">
-    <command xml:space="preserve">up</command>
-    <result xml:space="preserve">The door closes and the elevator churns upward.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>

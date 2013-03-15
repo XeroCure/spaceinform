@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6G60
 
-status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "D:\Brian Gabin\Projects\spaceinform\SpaceInform.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "D:\Brian Gabin\Projects\spaceinform\SpaceInform.inform"
-release to "D:\Brian Gabin\Projects\spaceinform\SpaceInform Materials\Release"
+project folder "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform"
+release to "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform Materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "SpaceInform.zblorb"
-storyfile "D:\Brian Gabin\Projects\spaceinform\SpaceInform.inform\Build\output.z8" include
-ifiction "D:\Brian Gabin\Projects\spaceinform\SpaceInform.inform\Metadata.iFiction" include
+storyfile "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Build\output.z8" include
+ifiction "C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
 
