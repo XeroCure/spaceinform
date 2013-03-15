@@ -126,4 +126,101 @@ Chapter 4 - Scripted Events
 
 After going aft in the Entry Commons: say "As you pass though the airlock into the Entry Commons, you hear a loud 'Slam!' from behind. Wheeling on the spot, you realize to your horrors that the blast doors have sealed you in, for seemingly no reason. After about fifteen seconds, you hear a man's voice. [line break][line break] 'Hello there, do not be alarmed.'[line break][line break] The  sound is coming from an intercom in the corner of the room. [line break][line break] 'I've only blocked off your passage because I'm a desperate man, who's been cooped up in this floating prison for far too long. I promise that if you can get me out I'll let you go. I'm directly above you in the Bridge but in order to get here, you'll need to restore the power to certain parts of the ship and get the elevator working. I'll try to keep you updated as best as possible, but communication is a bit spotty. Time is of the essence, I'll be waiting.' [line break][line break] With that the intercom cuts off and the room returns to an eerie silence."; now The Airlock is locked; now The Airlock is closed.
 
-Chapter 5 - NPCs
+Chapter 5- Converstations
+
+The captain-introduction-node is a convnode.
+node-introduction for captain-introduction-node:
+	say "This is the captain speaking."
+
+Chapter 6 - Radio Communication
+
+A radio is a kind of thing.
+
+A radio called the ship radio is in the Mining Vessel. Understand "1234" as the ship radio.
+A radio called the Captain's Radio is in the Bridge. Understand "5421" as the Captain's radio.
+
+Understand "radio [any radio] on [something]" as contacting it on.
+Understand "radio [any radio]" as contacting it on.
+Understand the commands "contact" or "call" as "radio".
+
+Connection relates one thing to another (called the other party).
+The verb to reach (it reaches, they reach, it reached) implies the connection relation.
+
+Contacting it on is an action applying to one visible thing and one thing.
+
+Check contacting it on:
+	if the second noun is not an radio, say "[The second noun] is unlikely to be much use in that respect." instead;
+	if the second noun is the noun, say "You get a busy signal." instead.
+	
+Carry out contacting it on:
+	if a person (called the listener) can see the noun, now the player reaches the listener.
+	
+Report contacting it on:
+	say "You successfully connect with someone on the other end of the radio.";
+	
+Rule for supplying a missing second noun while contacting something on:
+	assign a radio.
+	
+To assign a radio:
+	if the player can touch a radio (called the current phone):
+		say "(on [the current phone])[line break]";
+		now the second noun is the current phone;
+	otherwise:
+		say "You don't have a radio handy.";
+		
+Before contacting something on something when the player reaches someone:
+	say "(first ending your conversation with [the other party of the player])[command clarification break]";
+	end current conversation.
+	
+Understand "disconnect [something]" as disconnecting.
+
+Disconnecting is an action applying to one thing.
+
+Check disconnecting:
+	if the noun is not a radio, say "You can't disconnect [the noun]." instead;
+	if the player does not reach someone, say "You're not communicating with anyone." instead.
+	
+Carry out disconnecting:
+	now the player does not reach anyone.
+	
+Report disconnecting:
+	say "You turn your radio off."
+	
+Before going somewhere when the player reaches someone:
+	say "(first ending your conversation with [the other party of the player])[command clarification break]";
+	end current conversation.
+	
+Understand "radio [text]" as misdialing. Misdialing is an action applying to one topic. Carry out misdialing: say "There's nothing but static on the radio."
+
+Before misdialing when the player reaches someone:
+	say "(first ending your conversation with [the other party of the player])[command clarification break]";
+	end current conversation.
+	
+To end current conversation:
+	let the current radio be a random radio which can be touched by the player;
+	silently try disconnecting the current radio.
+	
+After deciding the scope of the player while the player reaches someone:
+	place the other party of the player in scope, but not its contents.
+	
+To decide whether acting through the line:
+	if the noun is something and the location of the noun is not the location of the player:
+		yes;
+	if the second noun is something and the location of the second noun is not the location of the player:
+		yes;
+	no.
+	
+Visibility rule when acting through the line:
+	there is insufficient light.
+	
+Rule for printing a refusal to act in the dark when acting through the line:
+	say "You're not on a video phone, so you can only hear." instead.
+	
+A rule for reaching inside a room (called destination):
+	if the other party of the player is enclosed by the destination:
+		say "Though it may sound like [the other party of the player] is standing right next to you, he is not.";
+		deny access.
+		
+Chapter 7- Everything Else
+
+The Captain is a man. The Captain is in the Bridge.
