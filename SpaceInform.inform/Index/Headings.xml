@@ -18,42 +18,42 @@
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Source\story.ni</string>
-        <key>Line</key><integer>100</integer>
+        <key>Line</key><integer>106</integer>
         <key>Title</key><string>Chapter 2 - Things and Scenery</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Source\story.ni</string>
-        <key>Line</key><integer>114</integer>
+        <key>Line</key><integer>142</integer>
         <key>Title</key><string>Chapter 3 - Journals</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Source\story.ni</string>
-        <key>Line</key><integer>125</integer>
+        <key>Line</key><integer>159</integer>
         <key>Title</key><string>Chapter 4 - Scripted Events</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Source\story.ni</string>
-        <key>Line</key><integer>129</integer>
+        <key>Line</key><integer>167</integer>
         <key>Title</key><string>Chapter 5- Converstations</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Source\story.ni</string>
-        <key>Line</key><integer>135</integer>
+        <key>Line</key><integer>248</integer>
         <key>Title</key><string>Chapter 6 - Radio Communication</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>C:\Users\Bryan\Documents\GitHub\spaceinform\SpaceInform.inform\Source\story.ni</string>
-        <key>Line</key><integer>224</integer>
+        <key>Line</key><integer>338</integer>
         <key>Title</key><string>Chapter 7- Everything Else</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
