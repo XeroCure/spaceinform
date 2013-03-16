@@ -27,7 +27,7 @@ The Mining Vessel is a room. The description is "It's a small two seat mining sh
 
 The Airlock is a door. It is aft of the Mining Vessel. It is fore of the Entry Commons. it is unlocked. The description is "A small bisected tube with a decompression chamber in the middle and large air tight blast doors seperateing the sections. You've seen hundreds of these before and can move right through without much hassle.".
 
-The Entry Commons is a room. It is aft of the Airlock. The description is "The Entry commons is the first room anyone enters upon boarding the ship. Clean as ever, you would never have known that anything was amiss standing in the Entry Commons if not for the lack of people. The ship's census placard is hanging on the wall. ".
+The Entry Commons is a room. The description is "The Entry commons is the first room anyone enters upon boarding the ship. Clean as ever, you would never have known that anything was amiss standing in the Entry Commons if not for the lack of people. The ship's census placard is hanging on the wall. ".
 
 The Hallway is a room. It is port of the Entry Commons. The description is "A large passage  running along the port exterior of the ship. The monitors that line the outer wall simulate windows, and outside you can see the deserted asteroid field that you've been mining your whole life pass by. A line of small trees run along the monitors. [line break] [line break] There are three exits out of the Hallway towards the [bold type]AFT[roman type] of the ship you see a sign labeled Barracks. Towards the  [bold type]FORE[roman type] of the ship the sign reads entry commons. and about halfway down on the starboard you see a sign reading elevator, but where the elevator should be, there is a rather large pile of rubble.".
 
@@ -126,18 +126,98 @@ Chapter 4 - Scripted Events
 
 After going aft in the Entry Commons: say "As you pass though the airlock into the Entry Commons, you hear a loud 'Slam!' from behind. Wheeling on the spot, you realize to your horrors that the blast doors have sealed you in, for seemingly no reason. After about fifteen seconds, you hear a man's voice. [line break][line break] 'Hello there, do not be alarmed.'[line break][line break] The  sound is coming from an intercom in the corner of the room. [line break][line break] 'I've only blocked off your passage because I'm a desperate man, who's been cooped up in this floating prison for far too long. I promise that if you can get me out I'll let you go. I'm directly above you in the Bridge but in order to get here, you'll need to restore the power to certain parts of the ship and get the elevator working. I'll try to keep you updated as best as possible, but communication is a bit spotty. Time is of the essence, I'll be waiting.' [line break][line break] With that the intercom cuts off and the room returns to an eerie silence."; now The Airlock is locked; now The Airlock is closed.
 
+After going up in the Elevator: say "."
+
+After going down in the Elevator: say "."
+
 Chapter 5- Converstations
 
 The captain-introduction-node is a convnode.
 node-introduction for captain-introduction-node:
-	say "This is the captain speaking."
+	say "'There you are! Took you long enough to get here.', the Captain exclaims ungratefully.";
+	say "In disbelief you say, 'Give me one good reason why I shouldn't just leave your sorry ass on this Ship and leave.'";
+	say "'As much as I'd like to say I know everything that happens on this ships I command there are somethings you can't control. The goings on below decks were directed by my superiors and completly unknown to me. Had I any idea how much these top secret dealings were endangering my crew I wouldn't have allowed them to happen.";
+	say "Sighing you then say, 'Fine[node captain-node]."
+
+The captain-node is a convnode.
+
+After going to the Bridge for the first time:
+	initiate a conversation with the Captain at captain-introduction-node;
+	continue the action.
+
+what happened is a subject.
+experiments is an unfamiliar subject.
+power generator is a subject.
+life support system is a subject.
+aliens is a subject.
+
+An object can be either broken or not broken.
+The generator2 is in the Engine Room. The generator2 is broken.
+
+The doctor-firstcontact-node is a convnode. The next-node is doctor-midcontact-node.
+The ask-suggestions are { self-suggestion, what happened }.
+After saying hello to the Doctor when at-node doctor-firstcontact-node:
+	say "'Hello? Is anyone on this frequency?', you ask.";
+	say "After a few silent seconds a man responds ecstatically, 'Hello!? Who's this? Are you a survivor or a rescuer?'";
+	say "'I'm a miner who responded to this ship's distress beacon and then got trapped on here by your coward captain.' you explain.";
+	say "'I'm not surprised. I'm the ship's medical professional. I've been trapped in the med bay ever since those things attacked.' said the Doctor.";
+
+The doctor-midcontact-node is a convnode. The next-node is a doctor-midcontact-node.
+The ask-suggestions are { self-suggestion, Captain, what happened, aliens, power generator }.
+After saying hello to the Doctor when at-node doctor-midcontact-node:
+	say "'Doctor, are you still there?'";
+	say "'Yes, yes. I'm still trapped in the metal death box right next to a room full of deadly creatures. What do want?"
+Response for doctor-midcontact-node when asked about life support system:
+	say "If you can figure out how to operate the Life Support Console you may be able to cut oxygen off to certain parts of the ship."
+Response for doctor-midcontact-node when asked about power generator and the generator2 is broken:
+	say "'I need to repair the ship's power generator to access the rest of the ship but I don't have experience with this kinda stuff. Where do I even begin?'";
+	say "'Hmm.', you can hear the Doctor thinking out loud through the radio.";
+	say "'You might be able to find the engineers possessions in their quarters. They're bound to have some technical documentation there."
+Response for doctor-midcontact-node when asked about the brig and experiments are unknown:
+	say "'When I went down below I couldn't get access to the brig. Do you know anything about what's in there?'";
+	say "'The brig was where the attacks started. As a medical professional I strongly advise you don't go in there, it'd be bad for your health."
+Response for doctor-midcontact-node when asked about Captain:
+	say "'What can you tell me about the ship's Captain?'";
+	say "'Our illustrious Captain is god-damned coward. Almost immediately after the attacks began he sealed off the Galley locking most of the ship's crew in there securing their demise. Then when you arrive he traps you aboard this death trap just to save his own sorry ass. In my opinion, a man like that doesn't deserve the kindness of being rescued."
+Response for doctor-midcontact-node when asked about aliens:
+	say "'What can you tell me about the aliens?', you inquire.";
+	say "Taking a deep breath the Doctor explains, 'I got locked in the medical bay before just as they began to make their way into the Galley so I didn't get to see much of them. I can tell you that those bastards have utterly destroyed the Galley and killed everyone they've run into. I certain they know I'm in here. They spent hours attacking the blastdoors before giving up, it may only be a matter of time before they try and again and make it in.'";
+Response for doctor-midcontact-node when asked about Doctor:
+	say "You ask the Doctor, 'Tell me more about yourself. What were your responsibilities aboard this vessel?'";
+	say "'As I said I'm the ship's active medical professional. I was tasked with keeping the crew of this ship healthy before all hell broke loose.', the Doctor explained."
+Response for doctor-midcontact-node when asked about what happened:
+	say "'I've seen some seriously messed up shit on here. What the hell happened here?', you ask.";
+	say "'It happened so quickly. I had just come up here to gather some medical charts when the screaming began below. Most of the crew was having the lunch being served in the Galley when the aliens began pouring in the from the lower level. The Captain initiated the lockdown on the Galley locking nearly all of the crew in with those monsters. I've been trapped back in the med bay since."
+Response for doctor-midcontact-node when asked about experiments:
+	say "'Doctor, I explored the brig and it wasn't pretty down there. There was a lot of medical equipment down there and a lot of dead bodies. You being the ship's head medical professional I can only assume you know something about what was going on down there.'";
+	say "The Doctor remained silent on the other end of the radio for quite some time before speaking up, 'We had been conducting medical tests on a group of prisoners we were transporting. A number of the prisoners were exhibiting abnormal health conditions. One of the prisoners must of been a carrier for this damned virus.'";
+	say "The Doctors tone has clearly changed, it's pretty obvious that the good Doctor knows a lot more than he is letting on about what happened on this ship[node doctor-confrontational-node]." 
+Before saying goodbye to the Doctor when at-node doctor-midcontact-node:
+	say "'I'll stay in contact with you Doctor. I'm going to get back to it.'";
+	say "'Good luck son.'";
+node-continuation for doctor-midcontact-node:
+	if a random chance of 1 in 3 succeeds then
+	say "'Are you still there?' Conserve your radio's power and disconnect it.'"
+	
+The doctor-confrontational-node is a convnode. The next-node is doctor-confrontational-node.
+After saying hello to the Doctor when at-node doctor-confrontational-node:
+	say "'Doctor.'";
+	say "What is it boy.', the Doctor snaps."
+Before saying goodbye to the Doctor when at-node doctor-confrontational-node:
+	say "'Over and out, Doctor.'";
+	say "'..Over and out.'"
+	
+node-continuation for doctor-confrontational-node:
+	if a random chance of 1 in 2 succeeds then
+	say "'Dammit are you there?' I don't have the power left to listen to dead air."
 
 Chapter 6 - Radio Communication
 
 A radio is a kind of thing.
 
-A radio called the ship radio is in the Mining Vessel. Understand "1234" as the ship radio.
+The player is holding a radio called Short-range Radio.
 A radio called the Captain's Radio is in the Bridge. Understand "5421" as the Captain's radio.
+A radio called the Doctor's Radio is in the Medical Bay. Understand "6232" as the Doctor's Radio.
 
 Understand "radio [any radio] on [something]" as contacting it on.
 Understand "radio [any radio]" as contacting it on.
@@ -156,7 +236,7 @@ Carry out contacting it on:
 	if a person (called the listener) can see the noun, now the player reaches the listener.
 	
 Report contacting it on:
-	say "You successfully connect with someone on the other end of the radio.";
+	say "You successfully connect with someone on the other end of the radio."
 	
 Rule for supplying a missing second noun while contacting something on:
 	assign a radio.
@@ -204,9 +284,9 @@ After deciding the scope of the player while the player reaches someone:
 	place the other party of the player in scope, but not its contents.
 	
 To decide whether acting through the line:
-	if the noun is something and the location of the noun is not the location of the player:
+	if the noun is something and the location of the noun is not the location of the player and the noun is not a door:
 		yes;
-	if the second noun is something and the location of the second noun is not the location of the player:
+	if the second noun is something and the location of the second noun is not the location of the player and the noun is not a door:
 		yes;
 	no.
 	
@@ -223,4 +303,6 @@ A rule for reaching inside a room (called destination):
 		
 Chapter 7- Everything Else
 
-The Captain is a man. The Captain is in the Bridge.
+The Captain is a man. The Captain is in the Bridge. The node is captain-introduction-node.
+The Doctor is a man. The Doctor is in the Mining Vessel. The node is doctor-firstcontact-node.
+The Life Support Console is in the Life Support Systems room.
