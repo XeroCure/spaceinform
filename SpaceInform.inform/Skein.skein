@@ -1,13 +1,1085 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02EB4050" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x02C6FE68" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02EB4050"/>
-  <item nodeId="node-0x02EB4050">
+  <activeNode nodeId="node-0x02C6FE68"/>
+  <item nodeId="node-0x02C6FE68">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">Puttering along on your way to work at the asteroid mines, you recieve a distress signal.&#x000A;Being the brave heroic soul that you are, you set course for the signal. As  you come across the space hulk floating through the asteroid field  the airlock beckons and you connect.&#x000A;&#x000A;Xenocide&#x000A;A space horror by William Pacini and Brian Gabin&#x000A;Release 1 / Serial number 130316 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Mining Vessel&#x000A;It's a small two seat mining ship that you've lovingly named "Ol" Faithful" after years of service. The Space Hulk that the distress signal came from sits AFT of the little vessel. If things go poorly, it may be your only means of escape.&#x000A;&#x000A;You can see an Airlock here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02C6FFB0"/>
+      <child nodeId="node-0x02C72B98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C6FFB0">
+    <command xml:space="preserve">radio 6232</command>
+    <result xml:space="preserve">(on Short-range Radio)&#x000A;&#x000A;You successfully connect with someone on the other end of the radio.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C70020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C70020">
+    <command xml:space="preserve">hello</command>
+    <result xml:space="preserve">(addressing the Doctor)&#x000A;"Hello? Is anyone on this frequency?", you ask.&#x000A;After a few silent seconds a man responds ecstatically, "Hello!? Who's this? Are you a survivor or a rescuer?"&#x000A;"I'm a miner who responded to this ship's distress beacon and then got trapped on here by your coward captain." you explain.&#x000A;"I'm not surprised. I'm the ship's medical professional. I've been trapped in the med bay ever since those things attacked." said the Doctor.&#x000A;&#x000A;(You could ask him about himself or what happened.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C3A418"/>
+      <child nodeId="node-0x02C72B28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C3A418">
+    <command xml:space="preserve">ask about what happened</command>
+    <result xml:space="preserve">"I've seen some seriously messed up shit on here. What the hell happened here?", you ask.&#x000A;"It happened so quickly. I had just come up here to gather some medical charts when the screaming began below. Most of the crew was having the lunch being served in the Galley when the aliens began pouring in the from the lower level. The Captain initiated the lockdown on the Galley locking nearly all of the crew in with those monsters. I've been trapped back in the med bay since.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C3A898"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C3A898">
+    <command xml:space="preserve">ask about aliens</command>
+    <result xml:space="preserve">"What can you tell me about the aliens?", you inquire.&#x000A;Taking a deep breath the Doctor explains, "I got locked in the medical bay before just as they began to make their way into the Galley so I didn't get to see much of them. I can tell you that those bastards have utterly destroyed the Galley and killed everyone they've run into. I certain they know I'm in here. They spent hours attacking the blastdoors before giving up, it may only be a matter of time before they try and again and make it in."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C70C68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C70C68">
+    <command xml:space="preserve">ask about captain</command>
+    <result xml:space="preserve">Though it may sound like the Doctor is standing right next to you, he is not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C70D98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C70D98">
+    <command xml:space="preserve">ask about Captain</command>
+    <result xml:space="preserve">Though it may sound like the Doctor is standing right next to you, he is not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C70EC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C70EC8">
+    <command xml:space="preserve">ask about brig</command>
+    <result xml:space="preserve">Though it may sound like the Doctor is standing right next to you, he is not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C70FF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C70FF8">
+    <command xml:space="preserve">ask about the brig</command>
+    <result xml:space="preserve">Though it may sound like the Doctor is standing right next to you, he is not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C718D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C718D0">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">(first ending your conversation with the Doctor)&#x000A;(first opening the Airlock)&#x000A;As you pass though the airlock into the Entry Commons, you hear a loud "Slam!" from behind. Wheeling on the spot, you realize to your horrors that the blast doors have sealed you in, for seemingly no reason. After about fifteen seconds, you hear a man's voice. &#x000A;&#x000A; "Hello there, do not be alarmed."&#x000A;&#x000A; The  sound is coming from an intercom in the corner of the room. &#x000A;&#x000A; "I've only blocked off your passage because I'm a desperate man, who's been cooped up in this floating prison for far too long. I promise that if you can get me out I'll let you go. I'm directly above you in the Bridge but in order to get here, you'll need to restore the power to certain parts of the ship and get the elevator working. I'll try to keep you updated as best as possible, but communication is a bit spotty. Time is of the essence, I'll be waiting." &#x000A;&#x000A; With that the intercom cuts off and the room returns to an eerie silence.&#x000A;&#x000A;"Are you still there?" Conserve your radio's power and disconnect it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C719E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C719E8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">(first opening the Galley's Fore Blastdoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C71B00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C71B00">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">(first opening the Galley's Fore Blastdoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C71DF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C71DF8">
+    <command xml:space="preserve">look Galley's Fore Blastdoor</command>
+    <result xml:space="preserve">The port hole window is fogged up, but when you rub it off, you can faintly make out a bit of movement in the background. Just as you lean in, a tentacle moves up over the window and the other side begins to glaze over.&#x000A;&#x000A;The window is completely blocked on the other side , but it reads "Galley" on the top.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C720B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C720B8">
+    <command xml:space="preserve">look airlock</command>
+    <result xml:space="preserve">A small bisected tube with a decompression chamber in the middle and large air tight blast doors seperateing the sections. You've seen hundreds of these before and can move right through without much hassle.&#x000A;&#x000A;"Are you still there?" Conserve your radio's power and disconnect it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C729D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C729D8">
+    <command xml:space="preserve">disconnect</command>
+    <result xml:space="preserve">(Short-range Radio)&#x000A;You're not communicating with anyone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72A48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72A48">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Hallway&#x000A;A large passage  running along the port exterior of the ship. The monitors that line the outer wall simulate windows, and outside you can see the deserted asteroid field that you've been mining your whole life pass by. A line of small trees run along the monitors. &#x000A; &#x000A; There are three exits out of the Hallway towards the AFT of the ship you see a sign labeled Barracks. Towards the  FORE of the ship the sign reads entry commons. and about halfway down on the starboard you see a sign reading elevator, but where the elevator should be, there is a rather large pile of rubble.&#x000A;&#x000A;"Are you still there?" Conserve your radio's power and disconnect it."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72AB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72AB8">
+    <command xml:space="preserve">disconnect</command>
+    <result xml:space="preserve">(Short-range Radio)&#x000A;You're not communicating with anyone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C72B28">
+    <command xml:space="preserve">ask about himself</command>
+    <result xml:space="preserve">Though it may sound like the Doctor is standing right next to you, he is not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C72B98">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">(first opening the Airlock)&#x000A;As you pass though the airlock into the Entry Commons, you hear a loud "Slam!" from behind. Wheeling on the spot, you realize to your horrors that the blast doors have sealed you in, for seemingly no reason. After about fifteen seconds, you hear a man's voice. &#x000A;&#x000A; "Hello there, do not be alarmed."&#x000A;&#x000A; The  sound is coming from an intercom in the corner of the room. &#x000A;&#x000A; "I've only blocked off your passage because I'm a desperate man, who's been cooped up in this floating prison for far too long. I promise that if you can get me out I'll let you go. I'm directly above you in the Bridge but in order to get here, you'll need to restore the power to certain parts of the ship and get the elevator working. I'll try to keep you updated as best as possible, but communication is a bit spotty. Time is of the essence, I'll be waiting." &#x000A;&#x000A; With that the intercom cuts off and the room returns to an eerie silence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72C08"/>
+      <child nodeId="node-0x02C49AC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72C08">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">(first opening the Galley's Fore Blastdoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72C78"/>
+      <child nodeId="node-0x02C735A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72C78">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Hallway&#x000A;A large passage  running along the port exterior of the ship. The monitors that line the outer wall simulate windows, and outside you can see the deserted asteroid field that you've been mining your whole life pass by. A line of small trees run along the monitors. &#x000A; &#x000A; There are three exits out of the Hallway towards the AFT of the ship you see a sign labeled Barracks. Towards the  FORE of the ship the sign reads entry commons. and about halfway down on the starboard you see a sign reading elevator, but where the elevator should be, there is a rather large pile of rubble.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72CE8"/>
+      <child nodeId="node-0x02C733E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72CE8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Barracks&#x000A;As you exit the hallway, a foul stench gets caught in your nose, reeking of waste and decay. After a moment's hesitation you remember that the way behind is blocked. You gather your courage and taking a deep breath enter the barracks. &#x000A;&#x000A;Its clear that a Line of bunks ran down the  fore and aft side walls, but now they and the tatters that once were the sheets are strewn about the room.  Broken shards of furniture are smashed up against the walls and piled in the corners. But worst of all is the bodies. Your rough count is about fifteen dead men, but the limbs make it hard to be sure.&#x000A;&#x000A;You can see a Galley's Aft Blastdoor and Pvt Wormund Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72D58"/>
+      <child nodeId="node-0x02C72F18"/>
+      <child nodeId="node-0x02C73068"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72D58">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72DC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72DC8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;The Officer's Quarters is in disarray. The  furniture has alll been shoved into the corner revealing the emergency ladder  that goes up and down. There are signs of struggle in hear and a bit a blood, &#x000A;&#x000A;You can see Sgt Castle's Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72E38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72E38">
+    <command xml:space="preserve">fown</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72EA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72EA8">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Engine Room&#x000A;You emerge from the ladder's narrow passage into the Engine Room.&#x000A;&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see a generator2 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C72F18">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Crew's Quarters&#x000A;The Crew's Quarter's seems to be a bit of a sty, but is nothing compared to the massacre you just came from. There are no body parts anywhere, just a some ruffled up papers and unmade beds.&#x000A;&#x000A; The furniture is realtively intact with four bunks, one on each wall accompanied by a desk and a footlocker. The Engineer's footlocker seems to be the only one you can get into.&#x000A;&#x000A;You can see Engineer's Desk (on which is Engineer's Manual) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72F88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72F88">
+    <command xml:space="preserve">take manual</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C72FF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C72FF8">
+    <command xml:space="preserve">lookup 2131</command>
+    <result xml:space="preserve">You know what to do now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C73068">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;The Officer's Quarters is in disarray. The  furniture has alll been shoved into the corner revealing the emergency ladder  that goes up and down. There are signs of struggle in hear and a bit a blood, &#x000A;&#x000A;You can see Sgt Castle's Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C730D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C730D8">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Engine Room&#x000A;You emerge from the ladder's narrow passage into the Engine Room.&#x000A;&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73148"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73148">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  ts a damn shame they weren't expecting to use any before they got planetside.&#x000A;&#x000A;You can see a Brig's Blastdoor, a gun safe (closed) and a multi-tool here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C731B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C731B8">
+    <command xml:space="preserve">take multi-tool</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73228"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73228">
+    <command xml:space="preserve">drop tool</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73298"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73298">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Engine Room&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73308"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73308">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;The Officer's Quarters is in disarray. The  furniture has alll been shoved into the corner revealing the emergency ladder  that goes up and down. There are signs of struggle in hear and a bit a blood, &#x000A;&#x000A;You can see Sgt Castle's Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73378"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73378">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Weapons Systems Room&#x000A;The exterior weapons systems are controlled from in this room. The manual override stations look dusty and unused. All the weapons systems in the world don't do a lick of good if your guns can't point the right way. A rack of Dominion Astral Torpedos sit in the corner ready to be loaded into the pipes. In the corner sits the nuclear warhead, saved for the biggest of targets.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C733E8">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73458"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73458">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">The door closes and the elevator churns upwards to the top level.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C734C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C734C8">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Observation Deck&#x000A;In the center of the Observation Deck you can see down through a safety glass panel into the center of the Galley.  Most of the viewing port has been covered in the phlegmish substance, but through the direct center you can see about ten square feet of the Galley floor.The furniture seems to be haphazardly spread out and the carnage similar to the Barracks. The top floor itself seems to have been untouched by the incident.&#x000A;&#x000A;You can see a Bridge's Blastdoor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73538"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73538">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">(first opening the Bridge's Blastdoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C735A8">
+    <command xml:space="preserve">por</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73618"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73618">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">(first opening the Galley's Fore Blastdoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73688"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73688">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Hallway&#x000A;A large passage  running along the port exterior of the ship. The monitors that line the outer wall simulate windows, and outside you can see the deserted asteroid field that you've been mining your whole life pass by. A line of small trees run along the monitors. &#x000A; &#x000A; There are three exits out of the Hallway towards the AFT of the ship you see a sign labeled Barracks. Towards the  FORE of the ship the sign reads entry commons. and about halfway down on the starboard you see a sign reading elevator, but where the elevator should be, there is a rather large pile of rubble.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C736F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C736F8">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73768"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73768">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Galley&#x000A;The room has been torn to pieces. This is where the creatures had been quarantined in their bulk after the accident. The tables and chairs have been ripped up and replaced with a floor covered by half devoured bodies and feces. One of the aliens seems a bit odd and is sprawled out in the center of the room on the last remaining table of the Dining Hall.&#x000A;&#x000A;You can see a Galley's Starboard Blastdoor, a Galley's Fore Blastdoor, a Galley's Aft Blastdoor and an alien (on which is a pair of dog tags) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C737D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C737D8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Galley&#x000A;The room has been torn to pieces. This is where the creatures had been quarantined in their bulk after the accident. The tables and chairs have been ripped up and replaced with a floor covered by half devoured bodies and feces. One of the aliens seems a bit odd and is sprawled out in the center of the room on the last remaining table of the Dining Hall.&#x000A;&#x000A;You can see a Galley's Starboard Blastdoor, a Galley's Fore Blastdoor, a Galley's Aft Blastdoor and an alien (on which is a pair of dog tags) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73848"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73848">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Elevator&#x000A;Elevator description&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C738B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C738B8">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">The door closes and the elevator churns upwards to the bottom level.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C73928"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C73928">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  Too bad it was all down here.&#x000A;&#x000A;You can see a Brig's Blastdoor and a gun safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49A58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49A58">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C49AC8">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Hallway&#x000A;A large passage  running along the port exterior of the ship. The monitors that line the outer wall simulate windows, and outside you can see the deserted asteroid field that you've been mining your whole life pass by. A line of small trees run along the monitors. &#x000A; &#x000A; There are three exits out of the Hallway towards the AFT of the ship you see a sign labeled Barracks. Towards the  FORE of the ship the sign reads entry commons. and about halfway down on the starboard you see a sign reading elevator, but where the elevator should be, there is a rather large pile of rubble.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49B38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49B38">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Barracks&#x000A;As you exit the hallway, a foul stench gets caught in your nose, reeking of waste and decay. After a moment's hesitation you remember that the way behind is blocked. You gather your courage and taking a deep breath enter the barracks. &#x000A;&#x000A;Its clear that a Line of bunks ran down the  fore and aft side walls, but now they and the tatters that once were the sheets are strewn about the room.  Broken shards of furniture are smashed up against the walls and piled in the corners. But worst of all is the bodies. Your rough count is about fifteen dead men, but the limbs make it hard to be sure.&#x000A;&#x000A;You can see a Galley's Aft Blastdoor and Pvt Wormund Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49BA8"/>
+      <child nodeId="node-0x02C4A628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49BA8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;The Officer's Quarters is in disarray. The  furniture has alll been shoved into the corner revealing the emergency ladder  that goes up and down. There are signs of struggle in hear and a bit a blood, &#x000A;&#x000A;You can see Sgt Castle's Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49C18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49C18">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Engine Room&#x000A;You emerge from the ladder's narrow passage into the Engine Room.&#x000A;&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see a Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49C88"/>
+      <child nodeId="node-0x02C49E48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49C88">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49CF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49CF8">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  Too bad it was all down here.&#x000A;&#x000A;You can see a Brig's Blastdoor and a gun safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49D68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49D68">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You press the button to call the elevator and stand anxiously in the Armory listening to sounds of the creatures moving throughout the ship.&#x000A;&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49DD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49DD8">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C49E48">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  Too bad it was all down here.&#x000A;&#x000A;You can see a Brig's Blastdoor and a gun safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49EB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49EB8">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You press the button to call the elevator and stand anxiously in the Armory listening to sounds of the creatures moving throughout the ship.&#x000A;&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49F28"/>
+      <child nodeId="node-0x02C4A0E8"/>
+      <child nodeId="node-0x02C4A3F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49F28">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  Too bad it was all down here.&#x000A;&#x000A;You can see a Brig's Blastdoor and a gun safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C49F98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C49F98">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Engine Room&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see a Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A008">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  Some good it did them.&#x000A;&#x000A;You can see a Brig's Blastdoor and a gun safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A078">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C4A0E8">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A158">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A1C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A1C8">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A238">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A2A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A2A8">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A318">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A388">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C4A3F8">
+    <command xml:space="preserve">prt</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A468">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A4D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A4D8">
+    <command xml:space="preserve">potr</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A548">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A5B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A5B8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  Too bad it was all down here.&#x000A;&#x000A;You can see a Brig's Blastdoor and a gun safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C4A628">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">Crew's Quarters&#x000A;The Crew's Quarter's seems to be a bit of a sty, but is nothing compared to the massacre you just came from. There are no body parts anywhere, just a some ruffled up papers and unmade beds.&#x000A;&#x000A; The furniture is realtively intact with four bunks, one on each wall accompanied by a desk and a footlocker. The Engineer's footlocker seems to be the only one you can get into.&#x000A;&#x000A;You can see Engineer's Desk (on which is Engineer's Manual) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A698"/>
+      <child nodeId="node-0x02C4FFE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A698">
+    <command xml:space="preserve">starboard</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A708"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A708">
+    <command xml:space="preserve">take manual</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A778"/>
+      <child nodeId="node-0x02C4FCD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A778">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Barracks&#x000A;&#x000A;&#x000A;Its clear that a Line of bunks ran down the  fore and aft side walls, but now they and the tatters that once were the sheets are strewn about the room.  Broken shards of furniture are smashed up against the walls and piled in the corners. But worst of all is the bodies. Your rough count is about fifteen dead men, but the limbs make it hard to be sure.&#x000A;&#x000A;You can see a Galley's Aft Blastdoor and Pvt Wormund Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A7E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A7E8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;The Officer's Quarters is in disarray. The  furniture has alll been shoved into the corner revealing the emergency ladder  that goes up and down. There are signs of struggle in hear and a bit a blood, &#x000A;&#x000A;You can see Sgt Castle's Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A858"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A858">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Engine Room&#x000A;You emerge from the ladder's narrow passage into the Engine Room.&#x000A;&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see a Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A8C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A8C8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Engine Room&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see a Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A938"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A938">
+    <command xml:space="preserve">look console</command>
+    <result xml:space="preserve">You see nothing special about the Power Console.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4A9A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4A9A8">
+    <command xml:space="preserve">look Power Console</command>
+    <result xml:space="preserve">You see nothing special about the Power Console.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C4FCD8">
+    <command xml:space="preserve">research Life Support Console</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4FD48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4FD48">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Barracks&#x000A;&#x000A;&#x000A;Its clear that a Line of bunks ran down the  fore and aft side walls, but now they and the tatters that once were the sheets are strewn about the room.  Broken shards of furniture are smashed up against the walls and piled in the corners. But worst of all is the bodies. Your rough count is about fifteen dead men, but the limbs make it hard to be sure.&#x000A;&#x000A;You can see a Galley's Aft Blastdoor and Pvt Wormund Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4FDB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4FDB8">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;The Officer's Quarters is in disarray. The  furniture has alll been shoved into the corner revealing the emergency ladder  that goes up and down. There are signs of struggle in hear and a bit a blood, &#x000A;&#x000A;You can see Sgt Castle's Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4FE28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4FE28">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Engine Room&#x000A;You emerge from the ladder's narrow passage into the Engine Room.&#x000A;&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4FE98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4FE98">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">Armory&#x000A;Racks of Aussault Rifles fill the locked safe and crates upon crates of ammunition are stacked up against the walls.  Some good it did them.&#x000A;&#x000A;You can see a Brig's Blastdoor, a gun safe (closed) and a multi-tool here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4FF08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4FF08">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">Life Support Systems&#x000A;The room is remarkably dry. Almost mimicking a clean room. A series of dull pipes run between a few pumps. The pipes are labeled with the names of rooms they are going to. In the center is a console.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C4FF78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C4FF78">
+    <command xml:space="preserve">research Life Support Systems</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C4FFE8">
+    <command xml:space="preserve">take manual</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C50058"/>
+      <child nodeId="node-0x02C50138"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C50058">
+    <command xml:space="preserve">research manual in manual</command>
+    <result xml:space="preserve">I didn't understand that number.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C500C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C500C8">
+    <command xml:space="preserve">research manual in manual</command>
+    <result xml:space="preserve">I didn't understand that number.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02C50138">
+    <command xml:space="preserve">port</command>
+    <result xml:space="preserve">Barracks&#x000A;&#x000A;&#x000A;Its clear that a Line of bunks ran down the  fore and aft side walls, but now they and the tatters that once were the sheets are strewn about the room.  Broken shards of furniture are smashed up against the walls and piled in the corners. But worst of all is the bodies. Your rough count is about fifteen dead men, but the limbs make it hard to be sure.&#x000A;&#x000A;You can see a Galley's Aft Blastdoor and Pvt Wormund Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C501A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C501A8">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C50218"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C50218">
+    <command xml:space="preserve">fore</command>
+    <result xml:space="preserve">(first opening the Galley's Aft Blastdoor)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C50288"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C50288">
+    <command xml:space="preserve">aft</command>
+    <result xml:space="preserve">Officer's Quarters&#x000A;The Officer's Quarters is in disarray. The  furniture has alll been shoved into the corner revealing the emergency ladder  that goes up and down. There are signs of struggle in hear and a bit a blood, &#x000A;&#x000A;You can see Sgt Castle's Journal Entry here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02C502F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02C502F8">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Engine Room&#x000A;You emerge from the ladder's narrow passage into the Engine Room.&#x000A;&#x000A;Boilers, pipes, and gauges crisscross the Engine Room. In the back sits the massive Power Generator. On the front of the Power Generator a console reads the error code...&#x000A;&#x000A;You can see Power Console here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
   </item>
 </Skein>
